@@ -1,0 +1,92 @@
+.body{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wall{
+    background-image : url(./Assets/image.jpg);
+    background-size: cover;
+}
+
+.lineDiv {
+    display: flex;
+}
+
+.path {
+    background-image : url(./Assets/pelouse.jpg);
+    
+}
+
+.start {
+    background-image: url(./Assets/unnamed.jpg);
+    background-size: cover;
+}
+
+.end {
+    background-image: url(./Assets/unnamed.jpg);
+    background-size: cover;
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    text-align: center;
+}
+
+.wrong {
+    background-color: black;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    background-image: url('./Assets/pelouse.jpg');
+    height: 100px;
+    width:450px;
+    border: 3px solid #B86D39;
+    border-radius: 30%;
+    color: white;
+}
+
+.time {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 20px;
+}
+
+.welldone {
+    background-image: url(./Assets/pelouse.jpg);
+}
+
+youWonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youWon {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gif {
+    height:600px;
+    width: 1000px;
+    background-image:url('./Assets/10967283-you-won.jpg');
+    background-size: cover;
+}
